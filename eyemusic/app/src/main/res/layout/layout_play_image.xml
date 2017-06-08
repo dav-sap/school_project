@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@color/bg_color"
+   >
+   
+    <ImageView 
+        android:id="@+id/ImageView_source_pic_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rectangle"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="8dp"/>
+    
+<SurfaceView
+ android:id="@+id/surfaceview" 
+   android:layout_width="wrap_content"
+   android:layout_alignLeft="@+id/ImageView_source_pic_container"
+   android:layout_alignRight="@+id/ImageView_source_pic_container"
+   android:layout_alignTop="@+id/ImageView_source_pic_container"
+   android:layout_alignBottom="@+id/ImageView_source_pic_container"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rectangle"
+        
+   />
+    
+     <ProgressBar
+         android:id="@+id/ProgressBarMusic"
+         android:layout_width="wrap_content"
+         android:layout_height="4dp"
+         android:layout_below="@+id/ImageView_source_pic_container"
+         android:layout_alignRight="@+id/ImageView_source_pic_container"
+         android:layout_alignLeft="@+id/ImageView_source_pic_container"
+         style="@android:style/Widget.ProgressBar.Horizontal"
+         android:progressDrawable= "@drawable/custom_progress_bar"
+         android:max="50"
+         android:layout_marginTop="4dp"
+         />
+    
+      <ImageView 
+        android:id="@+id/ImageView_flat_pic_container"
+        android:layout_below="@+id/ProgressBarMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+         
+        android:src="@drawable/rectangle"
+        android:layout_marginTop="8dp"/>
+      
+        <ImageView 
+        android:id="@+id/ImageView_choose_picture"
+        android:src="@drawable/choose_pic_btn"
+        android:contentDescription="@string/choose_picture"
+        android:visibility="gone"
+        android:scaleType="fitXY"
+       android:layout_above="@+id/play_list_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+/>
+      
+      <LinearLayout 
+          android:id="@+id/back_forward_buttons"
+          android:visibility="gone"
+          android:weightSum="2"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_above="@+id/play_list_buttons">
+          
+          <ImageView android:layout_width="match_parent"
+              android:id="@+id/back_btn"
+              android:contentDescription="@string/previous"
+              android:scaleType="fitXY"
+              android:layout_weight="1"
+              android:layout_height="wrap_content"
+              android:src="@drawable/prev_btn"/>
+          
+          <ImageView android:layout_width="match_parent"
+              android:contentDescription="@string/next"
+              android:id="@+id/forward_btn"
+              android:scaleType="fitXY"
+              android:layout_weight="1"
+              android:layout_height="wrap_content"
+              android:src="@drawable/next_btn"/>
+
+      </LinearLayout>
+      <LinearLayout 
+          android:id="@+id/play_list_buttons"
+          android:weightSum="3"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:background="#262626"
+          android:layout_alignParentBottom="true">
+          
+          
+          <ImageView android:layout_width="match_parent"
+              android:contentDescription="@string/speed"
+              android:id="@+id/speed_btn"
+              android:layout_weight="1"
+              android:layout_height="wrap_content"
+              android:src="@drawable/speed_btn"/>
+          
+          <ImageView 
+              android:id="@+id/play_btn"
+              android:contentDescription="@string/play"
+              android:layout_width="match_parent"
+              android:layout_weight="1"
+              android:layout_height="wrap_content"
+              android:src="@drawable/play_btn"/>
+          
+          <ImageView android:layout_width="match_parent"
+              android:contentDescription="@string/color"
+              android:id="@+id/right_btn"
+              android:layout_weight="1"
+              android:layout_height="wrap_content"
+              android:src="@drawable/color_btn"/>
+
+          
+      </LinearLayout>
+
+
+</RelativeLayout>

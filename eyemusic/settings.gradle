@@ -1,0 +1,4 @@
+include ':app'
+include ':openCV'
+include ':openCV'
+include ':openCVLibrary2411'

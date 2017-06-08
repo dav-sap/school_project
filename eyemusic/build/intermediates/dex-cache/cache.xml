@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\dsaper\.android\build-cache\3a89b5104b7589d623f35ee5c2a096dc8900f222\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\David\Temp Files\eyemusic2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_119d94367b7712753b1e99833d7312f9d01ed359\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\David\Temp Files\eyemusic2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a10464c3555da3f15fbdac7a2eea6cc96f004bfb">
+        <dex dex="C:\David\Temp Files\eyemusic2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_e0fdac0301071caf2ed5d5a52c6f0121a8153f21\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\commons-io\commons-io\2.4\commons-io-2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="C:\David\Temp Files\eyemusic2\app\build\intermediates\transforms\dex\debug\folders\1000\10\commons-io-2.4_b2955a73e8fdec69863902c786dced8321b28c5c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dsaper\.android\build-cache\8e50d1b10a4b7c2b6ca0a263a46d1850eae7c858\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cebe8e4a3a469c4623addcca1dc571407ff3a08e">
+        <dex dex="C:\David\Temp Files\eyemusic2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_08347f769938372bce2a51be0c5b8e8e941a98e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dsaper\.android\build-cache\3a89b5104b7589d623f35ee5c2a096dc8900f222\output\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\David\Temp Files\eyemusic2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.2.0_6231cb845d042f03c4c1750b4fd1789ac36f29b4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dsaper\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\David\Temp Files\eyemusic2\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-22.2.0_eb504b84ed80718f93686e2ef9ddb26f176965d8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\David\Temp Files\eyemusic2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\David\Temp Files\eyemusic2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_d6789baa7886538c562702c373f385638ebd9cec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dsaper\.android\build-cache\44196bbef5e4789348698b45275e646e8e8f1b25\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\David\Temp Files\eyemusic2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f21e0870eaa5dcbe0aaa4449ffd6f25038ca91b9\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp" >
+
+        <TextView
+            android:id="@+id/page_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_us_page_title"
+            style="@style/contact_us_title_style"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/instruction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            style="@style/contact_us_regular_txt_style"
+            android:text="@string/contact_us_instruction" />
+
+        <TextView
+            android:id="@+id/email_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            style="@style/contact_us_regular_txt_style"
+            android:text="@string/contact_us_email" />
+
+        <EditText
+            android:id="@+id/email_edit_text"
+            android:layout_width="match_parent"
+            style="@style/contact_us_regular_txt_style"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                style="@style/contact_us_regular_txt_style"
+                android:layout_toLeftOf="@+id/impairiments_checkbox"
+                android:text="@string/contact_us_visual_impairiments" />
+
+            <CheckBox
+                android:id="@+id/impairiments_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/impairiments_specify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/contact_us_regular_txt_style"
+            android:text="@string/contact_us_visual_impairiments_specify" />
+
+        <EditText
+            android:id="@+id/impairiments_specify_edit_text"
+            android:layout_width="match_parent"
+            style="@style/contact_us_regular_txt_style"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                style="@style/contact_us_regular_txt_style"
+                android:layout_toLeftOf="@+id/mailing_list_check_box"
+                android:text="@string/contact_us_mailing_list" />
+
+            <CheckBox
+                android:id="@+id/mailing_list_check_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/contact_us_regular_txt_style"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp" />
+        
+        
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/contact_us_regular_txt_style"
+            android:text="@string/contact_us_questions" />
+
+        <EditText
+            android:id="@+id/question_edit_text"
+            android:layout_width="match_parent"
+            style="@style/contact_us_regular_txt_style"
+            android:layout_height="wrap_content" />
+        
+        
+        <TextView
+            android:id="@+id/suggestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/contact_us_regular_txt_style"
+            android:text="@string/contact_us_suggestions" />
+
+        <EditText
+            android:id="@+id/suggestion_edit_text"
+            android:layout_width="match_parent"
+            style="@style/contact_us_regular_txt_style"
+            android:layout_height="wrap_content" />
+        
+        <TextView
+            android:id="@+id/free_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/contact_us_regular_txt_style"
+            android:text="@string/contact_us_free_text"/>
+
+        <EditText
+            android:id="@+id/free_text_edit_text"
+            android:layout_width="match_parent"
+            style="@style/contact_us_regular_txt_style"
+            android:layout_height="wrap_content" />
+        
+        
+        <Button android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/contact_us_submit"/>
+    </LinearLayout>
+
+</ScrollView>

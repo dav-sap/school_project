@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color" >
+
+    <GridView
+        android:id="@+id/gridview_imgs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="150dp"
+        android:gravity="center"
+        android:horizontalSpacing="8dp"
+        android:numColumns="2"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingTop="45dp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="8dp" />
+
+    <RelativeLayout
+        android:id="@+id/random_choice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:background="#000000" >
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_above="@+id/random"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/random"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="8dp"
+            android:text="@string/random_choice"
+            android:textColor="@color/main_color_for_titels"
+            android:textSize="16sp" />
+        
+          <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_below="@+id/random"
+            android:background="#FFFFFF" />
+    </RelativeLayout>
+
+</FrameLayout>

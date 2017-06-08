@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:title="Settings" >
+
+    <PreferenceCategory android:title="settings" >
+        <Preference android:title="Save" 
+             android:key="save">
+            
+        </Preference>
+        <Preference android:title="Reset Default settings" 
+             android:key="reset">
+            
+        </Preference>
+        <Preference android:title="Help"
+             android:key="help" >
+        </Preference>
+         <Preference android:title="Play tutorial"
+             android:key="tutorial" >
+        </Preference>
+        
+         <Preference android:title="Contact us"
+             android:key="contact_us" >
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="sound settings" >
+        <Preference android:title="Input Type" 
+            android:summary="Video"
+            android:key="input_types">
+            
+        </Preference>
+        <ListPreference
+            android:entries="@array/repeat"
+            android:entryValues="@array/repeat_values"
+            android:summary="Unlimited"
+            android:key="repeat"
+            android:title="Repeat" />
+        <com.quickode.eyemusic.models.SpeedPrefernce
+           
+           
+            android:defaultValue="75"
+            android:summary="75"
+            android:key="speed"
+            android:title="Speed" />
+        
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="read"
+            android:title="Read training file name" />
+    </PreferenceCategory>
+    
+    
+    <PreferenceCategory android:title="picture settings" >
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="black_white"
+            android:title="Black &amp; White" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="negative"
+            android:title="Negative" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="show_original"
+            android:title="Show original" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="show_clustered"
+            android:title="Show clustered" />
+        <!--<SwitchPreference-->
+            <!--android:defaultValue="false"-->
+            <!--android:key="face_detection_second"-->
+            <!--android:title="Detect faces after original image" />-->
+        <CheckBoxPreference
+            android:key="algo"
+            android:title="Interpolation Algorithm"
+            android:summaryOn="Nearest Neighbor"
+            android:summaryOff="Biliner"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="features settings" >
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="cartoonize"
+            android:title="Cartoonize image" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="face_detection"
+            android:title="Detect faces" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="full_body_detection"
+            android:title="Detect full bodies" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="upper_body_detection"
+            android:title="Detect upper bodies" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="object_detection_cropped"
+            android:title="Sound object only" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="display_original"
+            android:title="Display original image" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="analyze_img"
+            android:title="Analyze image" />
+        <EditTextPreference
+            android:key="port"
+            android:inputType="number"
+            android:title="Server Port" />
+        <EditTextPreference
+            android:key="ip"
+            android:inputType="number"
+            android:digits="0123456789."
+            android:title="Server IP" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

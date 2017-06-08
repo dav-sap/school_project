@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">eyeMusic</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="video">Video</string>
+    <string name="image">Image</string>
+    <string name="training">Training</string>
+    <string name="games">Games</string>
+    <string name="unlimited">Unlimited</string>
+    <string name="leaveApp">Are you sure you want to leave the application?</string>
+    <string name="leaveAppTitle">Exit app</string>
+
+    <string-array name="inputTypes">
+        <item>Type 1</item>
+        <item>Type 2</item>
+        <item>Type 3</item>
+    </string-array>
+    <string-array name="inputTypes_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="repeat">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>Unlimited</item>
+    </string-array>
+    <string-array name="repeat_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>10000</item>
+    </string-array>
+    <string-array name="speed">
+        <item>Slow - 105 ms</item>
+        <item>Normail - 50 ms</item>
+        <item>Fast - 5 ms</item>
+    </string-array>
+    <string-array name="speed_values">
+        <item>105</item>
+        <item>50</item>
+        <item>5</item>
+    </string-array>
+
+    <string name="random_choice">Select random</string>
+    <string name="dialog_slow">Slow - 105 ms</string>
+    <string name="dialog_normal">Normal - 50 ms</string>
+    <string name="dialog_fast">Fast - 5 ms</string>
+    <string name="dialog_custom">Custom:</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="play">play</string>
+    <string name="pause">pause</string>
+    <string name="color">"color"</string>
+    <string name="speed">"speed"</string>
+    <string name="negative">negative</string>
+    <string name="black_and_white">black and white</string>
+    <string name="next">next</string>
+    <string name="previous">previous</string>
+    <string name="choose_picture">choose picture</string>
+    <string name="file_name">file name</string>
+    <string name="setting">Settings</string>
+    <string name="lessons">Lessons list</string>
+    <string name="image_input">Image input</string>
+    <string name="video_input">Video input</string>
+    <string name="input_type">Input type</string>
+    <string name="category">Category list</string>
+    <string name="picture_list">Stimulations list</string>
+    <string name="text_paused_cellular">Would you like to enable downloading over cellular connections? Depending on your data plan, this may cost you money.</string>
+    <string name="text_paused_cellular_2">If you choose not to enable downloading over cellular connections, the download will automatically resume when wi-fi is available.</string>
+    <string name="text_button_resume_cellular">Resume download</string>
+    <string name="text_button_wifi_settings">Wi-Fi settings</string>
+    <string name="text_verifying_download">Verifying Download</string>
+    <string name="text_validation_complete">XAPK File Validation Complete.  Select OK to exit.</string>
+    <string name="text_validation_failed">XAPK File Validation Failed.</string>
+    <string name="text_button_pause">Pause Download</string>
+    <string name="text_button_resume">Resume Download</string>
+    <string name="text_button_cancel">Cancel</string>
+    <string name="text_button_cancel_verify">Cancel Verification</string>
+
+    <!-- contact us -->
+    <string name="contact_us_page_title">Please tell us what you think by filling out the online form. We would appreciate it if you gave us your email so we can answer and supply additional information</string>
+    <string name="contact_us_instruction">please fill all fields:</string>
+    <string name="contact_us_email">email</string>
+    <string name="contact_us_visual_impairiments">Do you have any visual impairiments?</string>
+    <string name="contact_us_visual_impairiments_specify">If yes, please specify:</string>
+    <string name="contact_us_mailing_list">Do you want to join our mailing list?</string>
+    <string name="contact_us_questions">Do you have any questions?</string>
+    <string name="contact_us_suggestions">Do you have any suggestions?</string>
+    <string name="contact_us_free_text">Free text</string>
+    <string name="contact_us_submit">submit</string>
+
+    <string name="msg_connection_error">This page requires internet access, please connect the device to the internet and try again</string>
+
+    <!-- When a download completes, a notification is displayed, and this string is used to
+indicate that the download successfully completed. Note that such a download could have been
+initiated by a variety of applications, including (but not limited to) the browser, an email
+application, a content marketplace. -->
+    <string name="notification_download_complete">Download complete</string>
+    <!-- When a download completes, a notification is displayed, and this string is used to
+    indicate that the download failed. Note that such a download could have been initiated by a
+    variety of applications, including (but not limited to) the browser, an email application, a
+    content marketplace. -->
+    <string name="notification_download_failed">Download unsuccessful</string>
+    <string name="state_unknown">Starting..."</string>
+    <string name="state_idle">Waiting for download to start</string>
+    <string name="state_fetching_url">Looking for resources to download</string>
+    <string name="state_connecting">Connecting to the download server</string>
+    <string name="state_downloading">Downloading resources</string>
+    <string name="state_completed">Download finished</string>
+    <string name="state_paused_network_unavailable">Download paused because no network is available</string>
+    <string name="state_paused_network_setup_failure">Download paused. Test a website in browser</string>
+    <string name="state_paused_by_request">Download paused</string>
+    <string name="state_paused_wifi_unavailable">Download paused because wifi is unavailable</string>
+    <string name="state_paused_wifi_disabled">Download paused because wifi is disabled</string>
+    <string name="state_paused_roaming">Download paused because you are roaming</string>
+    <string name="state_paused_sdcard_unavailable">Download paused because the external storage is unavailable</string>
+    <string name="state_failed_unlicensed">Download failed because you may not have purchased this app</string>
+    <string name="state_failed_fetching_url">Download failed because the resources could not be found</string>
+    <string name="state_failed_sdcard_full">Download failed because the external storage is full</string>
+    <string name="state_failed_cancelled">Download cancelled</string>
+    <string name="state_failed">Download failed</string>
+    <string name="kilobytes_per_second">%1$s KB/s</string>
+    <string name="time_remaining">Time remaining: %1$s</string>
+    <string name="time_remaining_notification">%1$s left</string>
+
+</resources>
